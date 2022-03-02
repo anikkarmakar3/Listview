@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+   <TextView
+    android:id="@+id/contactname"
+       android:layout_toRightOf="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       android:text="Anik Karmakar"
+       android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/contactno"
+        android:layout_below="@+id/contactname"
+        android:layout_toRightOf="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12102010"
+        android:textSize="40dp"/>
+</RelativeLayout>
